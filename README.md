@@ -11,13 +11,13 @@
 - **Video Lessons by Level**: Lessons are categorized by difficulty, making it simple for users to follow a structured and progressive learning path, from beginner to advanced levels.
 - **Curated Content**: All video lessons are carefully selected, developed, and reviewed by experts to ensure the highest quality and relevance to learners’ needs.
 
-<img src="./demo/demo/z6637290207993_56a5f9a659176b31ab9f8f373cbd9e56.jpg">
+<img src="./demo/pic1.jpg">
 
 - **Multiple Choice Exercises**: After completing each lesson, users can take multiple choice quizzes to test their understanding and retention of the material.
 
 - **Practice Exercises**: To enhance learning, the app provides a variety of engaging practice exercises that help reinforce vocabulary, grammar, and speaking skills.
 
-<img src="./demo/demo/z6637290208875_1f8efb106eb4cde3637bad51d16b82ff.jpg">
+<img src="./demo/pic2.jpg">
 
 ## Technology Learning
 
