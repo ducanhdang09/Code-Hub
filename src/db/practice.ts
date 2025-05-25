@@ -135,7 +135,7 @@ export const excercises: Exercise[] = [
     title: "Từ vựng trong tiếng anh",
     description:
       "Bộ bài tập từ vựng tiếng Anh này được thiết kế dành cho người học ở trình độ sơ cấp (A1–A2), giúp bạn làm quen và ghi nhớ các từ vựng thường dùng trong cuộc sống hàng ngày. Thông qua nhiều dạng bài tập phong phú, bạn sẽ rèn luyện khả năng nhận biết từ, hiểu nghĩa, và sử dụng từ vựng đúng ngữ cảnh.",
-    image: "practice1.jpg",
+    image: require("../assets/practice1.jpg"),
     content: [
       "Nội dung gồm có:",
       "\t- Level 1: Chọn nghĩa đúng của từ (Multiple choice)",
@@ -148,7 +148,7 @@ export const excercises: Exercise[] = [
     title: "Bài tập ngữ pháp",
     description:
       "Bộ bài tập ngữ pháp này được thiết kế dành cho người học ở trình độ sơ cấp (A1–A2), nhằm giúp củng cố và thực hành các điểm ngữ pháp nền tảng của tiếng Anh. Các bài tập được trình bày theo nhiều dạng khác nhau, giúp người học phát triển tư duy ngữ pháp một cách toàn diện và linh hoạt.",
-    image: "practice2.jpg",
+    image: require("../assets/practice2.jpg"),
     content: [
         "Nội dung gồm có:",
       "\t- Level 1: Sửa lỗi sai (Error correction)",
@@ -161,7 +161,7 @@ export const excercises: Exercise[] = [
     title: "Bài tổng hợp",
     description:
       "Bộ bài tập tổng hợp này được thiết kế để giúp người học ở trình độ sơ cấp (A1–A2) rèn luyện và phát triển đồng thời hai kỹ năng nền tảng quan trọng trong tiếng Anh: từ vựng và ngữ pháp.",
-    image: "practice3.png",
+    image: require("../assets/practice3.png"),
     content: [
        "Nội dung gồm có:",
       "\t- Level 1: Điền từ đúng vào chỗ trống (Vocabulary + Grammar gap-fill)",
