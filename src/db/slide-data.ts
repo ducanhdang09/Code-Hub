@@ -10,7 +10,7 @@ export const basic: IData[] = [
       "Bài 1. Lộ Trình Học Tiếng Anh Cho Người Mất Gốc Từ A-Z: Bắt Đầu Từ Con Số 0 Đến Thành Thạo",
     description:
       "Bạn đang loay hoay không biết bắt đầu học tiếng Anh từ đâu? Lộ trình này được thiết kế dành riêng cho người mất gốc, giúp bạn xây dựng lại nền tảng từ con số 0 đến khi có thể nghe – nói – đọc – viết một cách tự tin. Từng bước đi đều được hướng dẫn rõ ràng: từ phát âm, từ vựng cơ bản, ngữ pháp nền tảng cho đến kỹ năng giao tiếp thực tế. Với phương pháp học dễ hiểu và tài liệu phù hợp, bạn hoàn toàn có thể chinh phục tiếng Anh một cách bài bản và hiệu quả.",
-    videoUrl: "https://youtu.be/vxKhElc-0eE?si=ghh0ucwV4UQQVtq2",
+    videoUrl: "https://www.youtube.com/watch?v=Ih3za2gY-bI",
     content: [
       "Học đều cả 4 kỹ năng: nghe – nói – đọc – viết",
       "Luyện tập mỗi ngày, dù chỉ 15–30 phút",
