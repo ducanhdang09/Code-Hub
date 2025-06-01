@@ -1,4 +1,4 @@
-<img src="https://github.com/tuanna-kite/ScratchLab/blob/main/demo/scratch-logo.png?raw=true" width="150" height="150">
+<img src="D:\Code\expo-learn-coding\src\assets\logo1.jpg" width="150" height="150">
 
 # **English Master - Học tiếng Anh mỗi ngày**
 

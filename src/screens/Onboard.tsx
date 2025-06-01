@@ -27,22 +27,22 @@ type Slide = {
 const slides: Slide[] = [
   {
     key: "1",
-    title: "Học Scratch Vui Nhộn với CodeHub",
-    desc: "Tạo nhân vật, hoạt hoạ và trò chơi đầu tiên của bạn.",
+    title: "Học Tiếng Anh cùng English Master",
+    desc: " Luyện tập ngay hôm nay để thông thạo như người bản xứ",
     lottie: require("../assets/animations/learning.json"),
     gradient: ["#FF758C", "#FF7EB3"],
   },
   {
     key: "2",
-    title: "Thử Thách Thực Tế",
-    desc: "Quiz, mini-game và bài tập tương tác cho trẻ em.",
+    title: "Giao tiếp thực tế",
+    desc: "Quiz, mini-game và bài tập tương tác giúp bạn thông thạo hơn với tiếng anh",
     lottie: require("../assets/animations/quiz.json"),
     gradient: ["#43C6AC", "#F8FFAE"],
   },
   {
     key: "3",
-    title: "Bài Tập Thực Hành",
-    desc: "Luyện code với các bài tập thực tiễn và thú vị.",
+    title: "Thực hành với Enzo",
+    desc: "Hey! Mình là Enzo – trợ lý ngôn ngữ của bạn trong hành trình chinh phục tiếng Anh!. Mình được tạo ra bởi những chuyên gia ngôn ngữ hàng đầu, kết hợp cùng công nghệ AI siêu thông minh – để giúp bạn học tiếng Anh dễ hơn, nhanh hơn và... vui hơn!.Cho dù bạn muốn nói tiếng Anh lưu loát, viết email chuẩn chỉnh, hay vượt qua bài thi quốc tế – mình sẽ luôn đồng hành cùng bạn.",
     lottie: require("../assets/animations/practice.json"),
     gradient: ["#FEB692", "#EA5455"],
   },
