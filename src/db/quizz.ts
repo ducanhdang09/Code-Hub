@@ -10,164 +10,274 @@ export interface QuizzData {
 export const quizzData: { [key: string]: QuizzData[] } = {
   easy: [
     {
-      ques: 'What is the plural form of "child"?',
-      choose: ["a) childs", "b) child's' ", "c) children's'", "d) children"],
-      ans: 3,
-    },
-    {
-      ques: "She _____ to school every day.",
-      choose: ["	a) go", "	b) goes", "c) going", "	d) gone"],
-      ans: 1,
-    },
-    {
-      ques: "Which sentence is correct?",
-      choose: ["a. Their going to the beach.", "b. They're going to the beach.", "c. There going to the beach.", 'd. Theres going to the beach.'],
-      ans: 1,
-    },
-    {
-      ques: "What is the correct form of the adjective 'big' for a comparison with more than one object?",
+      ques: "What is website deployment?",
       choose: [
-        "a. big",
-        "b. bigger",
-        "c. biggest",
-        'd. more big'
+        "a) Writing code for a website",
+        "b) Saving your work locally",
+        "c) Publishing your website online",
+        "d) Designing website UI",
       ],
       ans: 2,
     },
     {
-      ques: "Which sentence is grammatically correct?",
-      choose: ["a. She don't like pizza.", "b. She doesn't like pizza.", "c. She don't likes pizza.", "d. She not like pizza."],
-      ans: 1,
+      ques: "Which is NOT a free website hosting platform?",
+      choose: ["a) GitHub Pages", "b) Vercel", "c) Wix", "d) Netlify"],
+      ans: 2,
     },
     {
-      ques: "Which sentence is grammatically correct??",
+      ques: "What does HTTPS mean?",
       choose: [
-        "a. Me and my friend went to the park.",
-        "b. My friend and I went to the park.",
-        "c. My friend and me went to the park.",
-        'd. Me went to the park with my friend.'
+        "a) HyperText Transfer Protocol Secure",
+        "b) High Text Transfer Page System",
+        "c) Host Type Transfer Program System",
+        "d) HyperText Tagging Protocol Secure",
+      ],
+      ans: 0,
+    },
+    {
+      ques: "Why is SSL important?",
+      choose: [
+        "a) It speeds up your site",
+        "b) It encrypts data to secure your site",
+        "c) It adds animations",
+        "d) It helps with SEO only",
       ],
       ans: 1,
     },
     {
-      ques: "'What is the correct preposition in the following sentence? 'I'm going _____ the store.'",
+      ques: "What is a domain name?",
       choose: [
-        "a. at",
-        "b. in",
-        "c. on",
-        'd.to'
+        "a) A browser plugin",
+        "b) A programming language",
+        "c) The address of a website",
+        "d) A file on your computer",
       ],
-      ans: 3,
+      ans: 2,
     },
     {
-      ques: "What is the correct form of the verb 'to be' in the present tense, third person singular?",
-      choose: ["a. am", "b. is", "c. are", 'd.be'],
-      ans: 1,
+      ques: "Which of the following is NOT a purpose of deployment?",
+      choose: [
+        "a) Testing code on your local device",
+        "b) Making the site available to users",
+        "c) Hosting files on a web server",
+        "d) Getting a live website URL",
+      ],
+      ans: 0,
     },
   ],
   medium: [
     {
-      ques: "Which sentence is correct?",
+      ques: "What is Git?",
       choose: [
-        "a. I have never been to France.",
-        "b. I have never went to France.",
-        "c. I never have been to France.",
-        'd. I never went to France.'
-      ],
-      ans: 0,
-    },
-    {
-      ques: "What is the correct form of the verb 'to be' in the future tense, third person singular?",
-      choose: ["a. will be", "b. is going to be", "c. will have been", 'd. is being'],
-      ans: 1,
-    },
-    {
-      ques: "Which sentence is correct?",
-      choose: [
-        "a. She can sings well.",
-        "b. She can sing well.",
-        "c. She can singing well.",
-        'd. She can to sing well.'
-      ],
-      ans: 1,
-    },
-    {
-      ques: "Choose the correct word: I _____ a book.'",
-      choose: [
-        "a. reads",
-        "b. reading",
-        "c. read",
-        'd. to read'
+        "a) A cloud hosting service",
+        "b) A text editor",
+        "c) A version control system",
+        "d) A design tool",
       ],
       ans: 2,
     },
     {
-      ques: "Which sentence is correct?",
-      choose: ["a. He don't like coffee.", "b. He doesn't like coffee.", "c. He don't likes coffee.", 'd. He not like coffee.'],
+      ques: "What does GitHub do?",
+      choose: [
+        "a) Hosts web servers",
+        "b) Stores code and tracks changes",
+        "c) Builds websites automatically",
+        "d) Creates email lists",
+      ],
       ans: 1,
+    },
+    {
+      ques: "What command initializes a Git repository?",
+      choose: ["a) git start", "b) git create", "c) git init", "d) git new"],
+      ans: 2,
+    },
+    {
+      ques: "What command stages all changes for commit?",
+      choose: [
+        "a) git commit -m",
+        "b) git push",
+        "c) git stage",
+        "d) git add .",
+      ],
+      ans: 3,
+    },
+    {
+      ques: "Which command uploads your code to GitHub?",
+      choose: ["a) git fetch", "b) git pull", "c) git push", "d) git upload"],
+      ans: 2,
+    },
+    {
+      ques: "What is a repository on GitHub?",
+      choose: [
+        "a) A website builder",
+        "b) A place to store your code and its history",
+        "c) A list of HTML tags",
+        "d) A network protocol",
+      ],
+      ans: 1,
+    },
+    {
+      ques: "Where do you enable GitHub Pages for a project?",
+      choose: [
+        "a) In the Issues tab",
+        "b) In the README file",
+        "c) In the Settings tab",
+        "d) In the Commits log",
+      ],
+      ans: 2,
+    },
+    {
+      ques: "Which branch is typically used for GitHub Pages deployment?",
+      choose: ["a) test", "b) main", "c) private", "d) develop"],
+      ans: 1,
+    },
+    {
+      ques: "GitHub Pages only supports which type of project?",
+      choose: [
+        "a) PHP + MySQL websites",
+        "b) Static frontend websites (HTML/CSS/JS)",
+        "c) Node.js backend APIs",
+        "d) React Native apps",
+      ],
+      ans: 1,
+    },
+    {
+      ques: "Which of these URLs is likely a GitHub Pages site?",
+      choose: [
+        "a) https://username.github.io/projectname",
+        "b) http://localhost:3000",
+        "c) https://myhost.dev/index.html",
+        "d) http://ftp.server.com",
+      ],
+      ans: 0,
     },
   ],
+
   hard: [
     {
-      ques: "Choose the correct question: '_____ you like tea?'",
+      ques: "What is Netlify used for?",
       choose: [
-        "a. Do",
-        "b. Does",
-        "c. Are",
-        'd. Is'
+        "a) Writing JavaScript",
+        "b) Storing CSS files",
+        "c) Hosting and deploying frontend websites",
+        "d) Running SQL databases",
       ],
-      ans: 0,
-    },
-    {
-      ques: "Which sentence is correct?",
-      choose: ["a. I am going to the store.", "b. I am go to the store.", "c. I going to the store.", 'd. I goes to the store.'],
-      ans: 0,
-    },
-    {
-      ques: "Choose the correct word: 'She _____ a teacher'",
-      choose: ["a. am", "b. is", "c. are", 'd.be'],
-      ans: 1,
-    },
-    {
-      ques: "Which sentence is correct?",
-      choose: ["a. They is my friends.", "b. They are my friends.", "c. They am my friends.", 'd. They be my friends.'],
-      ans: 1,
-    },
-    {
-      ques: "Choose the correct word: 'I _____ a student.'",
-      choose: ["a. am", "b. is", "c. are", 'd.be'],
-      ans: 0,
-    },
-    {
-      ques: "Which sentence is correct?",
-      choose:["a. She can to swim.", "b. She can swim.", "c. She can swimming.", 'd.She can swims.'],
-      ans: 1,
-    },
-    {
-      ques: "Choose the correct question: '_____ she like music?'",
-      choose: [
-        "a. do",
-        "b. does",
-        "c. is",
-        'd. are'
-      ],
-      ans: 1,
-    },
-    {
-      ques: "Which sentence is correct?",
-      choose: [
-        "a. I have two brothers.",
-        "b. I have two brother.",
-        "c. I has two brothers.",
-        'd. I have two brotheres.'
-      ],
-      ans: 0,
-    },
-    {
-      ques: "Choose the correct word: 'They _____ in the park.'",
-      choose: ["a. am", "b. is", "c. are", 'd.be'],
       ans: 2,
     },
-  
+    {
+      ques: "To connect a GitHub repo to Netlify, you must...",
+      choose: [
+        "a) Add a script tag",
+        "b) Install Netlify CLI only",
+        "c) Authorize GitHub in your Netlify account",
+        "d) Use FTP",
+      ],
+      ans: 2,
+    },
+    {
+      ques: "What does “continuous deployment” mean?",
+      choose: [
+        "a) Sites are redeployed after every GitHub push",
+        "b) Code never stops running",
+        "c) Website is published manually",
+        "d) The browser refreshes continuously",
+      ],
+      ans: 0,
+    },
+    {
+      ques: "Which folder should you deploy in a React project?",
+      choose: ["a) src/", "b) public/", "c) build/", "d) node_modules/"],
+      ans: 2,
+    },
+    {
+      ques: "A common reason a deployed site shows a blank screen is:",
+      choose: [
+        "a) Too much CSS",
+        "b) Incorrect build folder or script path",
+        "c) You used HTML5",
+        "d) GitHub blocked your IP",
+      ],
+      ans: 1,
+    },
+    {
+      ques: "What should you check first if GitHub Pages shows 404 error?",
+      choose: [
+        "a) JavaScript syntax",
+        "b) Your index.html location",
+        "c) Page color scheme",
+        "d) Favicon.ico file",
+      ],
+      ans: 1,
+    },
+    {
+      ques: "What’s the best way to test your deployed site?",
+      choose: [
+        "a) Use only your laptop",
+        "b) Check it only on mobile",
+        "c) Test on different devices and browsers",
+        "d) Ask a friend",
+      ],
+      ans: 2,
+    },
+    {
+      ques: "How can you improve performance of your deployed site?",
+      choose: [
+        "a) Add background music",
+        "b) Use larger images",
+        "c) Minify CSS/JS and optimize images",
+        "d) Use inline styles everywhere",
+      ],
+      ans: 2,
+    },
+    {
+      ques: "Why is having a live website beneficial for developers?",
+      choose: [
+        "a) Easier to copy from others",
+        "b) Shows their work to employers or clients",
+        "c) Faster coding",
+        "d) Improves typing speed",
+      ],
+      ans: 1,
+    },
+    {
+      ques: "Which tool helps track changes in your code over time?",
+      choose: ["a) VS Code", "b) Git", "c) Chrome", "d) Netlify"],
+      ans: 1,
+    },
+    {
+      ques: "What’s a recommended way to organize a deployable frontend project?",
+      choose: [
+        "a) Everything in one file",
+        "b) Build directory for output, separate folders for assets",
+        "c) Only use .txt files",
+        "d) Random file structure",
+      ],
+      ans: 1,
+    },
+    {
+      ques: "Which of the following is NOT required to use GitHub Pages?",
+      choose: [
+        "a) A GitHub account",
+        "b) HTML/CSS project",
+        "c) Node.js backend",
+        "d) GitHub repository",
+      ],
+      ans: 2,
+    },
+    {
+      ques: "Which file is usually the homepage in a deployed project?",
+      choose: ["a) main.css", "b) index.html", "c) readme.md", "d) script.js"],
+      ans: 1,
+    },
+    {
+      ques: "What is the benefit of using a custom domain?",
+      choose: [
+        "a) Makes the site faster",
+        "b) Makes your site easier to remember and more professional",
+        "c) Saves disk space",
+        "d) Helps write JavaScript",
+      ],
+      ans: 1,
+    },
   ],
 };

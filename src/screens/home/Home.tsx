@@ -39,7 +39,7 @@ export default function Home() {
             transition={{ type: "timing", duration: 300 }}
           >
             <Text fontSize="$2xl" fontWeight="$bold" color="$primary600">
-              English Master 
+              Code Studio
             </Text>
           </MotiView>
         </HStack>
@@ -66,14 +66,14 @@ export default function Home() {
 
         {/* 4. Các CardList section với staggered animation */}
         {[
-          { title: "Tiếng Anh Cơ bản", data: basic, type: EDisplayType.NORMAL },
+          { title: "Basic Programming", data: basic, type: EDisplayType.NORMAL },
           {
-            title: "Tiếng Anh Trung Bình",
+            title: "Intermediate Programming",
             data: intermediate,
             type: EDisplayType.LARGE,
           },
           {
-            title: "Tiếng Anh Nâng cao",
+            title: "Advanced Programming",
             data: advanced,
             type: EDisplayType.GRID,
           },

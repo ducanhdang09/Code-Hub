@@ -1,30 +1,30 @@
 <img src="src\assets\logo1.jpg" width="150" height="150">
 
-# **English Master - Học tiếng Anh mỗi ngày**
+# **Code Studio – Learn Programming Every Day**
 
-**English Master** is a comprehensive English learning app designed to help you improve your Listening, Speaking, Reading, and Writing skills in a fun and effective way. With rich content, personalized lessons based on your level, and interactive activities, you’ll see clear progress after just a few weeks of daily practice!
+**Code Studio** is a powerful and interactive learning app designed to help you master coding from beginner to advanced levels. With daily lessons, hands-on projects, and smart tracking, you’ll build your skills in HTML, CSS, JavaScript, and more — one line at a time!
 
 [DEMO](https://drive.google.com/file/d/1937xpWD5iHy86G0yusj9qcJAhFf4P6Kr/view?usp=sharing)
 
 ## Key Features
 
-- **Video Lessons by Level**: Lessons are categorized by difficulty, making it simple for users to follow a structured and progressive learning path, from beginner to advanced levels.
-- **Curated Content**: All video lessons are carefully selected, developed, and reviewed by experts to ensure the highest quality and relevance to learners’ needs.
+- **Video Lessons by Level**: Courses are organized by difficulty — from beginner syntax to full-stack development — guiding learners step-by-step through their coding journey.
+- **Expert-Curated Content**: All content is reviewed and crafted by experienced developers to ensure it's accurate, up-to-date, and practical.
 
 <img src="./demo/pic1.jpg">
 
-- **Multiple Choice Exercises**: After completing each lesson, users can take multiple choice quizzes to test their understanding and retention of the material.
+- **Interactive Coding Challenges**: After each lesson, users can complete real coding tasks and multiple-choice quizzes to test their knowledge and skills.
 
-- **Practice Exercises**: To enhance learning, the app provides a variety of engaging practice exercises that help reinforce vocabulary, grammar, and speaking skills.
+- **Project-Based Practice**: Learners apply what they’ve learned by building mini projects such as websites, games, and web apps — reinforcing both syntax and logic.
 
-<img src="./demo/pic2.jpg">
+<img src="">
 
 ## Technology Learning
 
-- **React Native**: To enhance learning, the app provides a variety of engaging practice exercises that help reinforce vocabulary, grammar, and speaking skills.
+- **React Native**:  Cross-platform app development ensures consistent experiences on both Android and iOS.
 
-- **Redux Toolkit**: Efficiently manages user data and progress, ensuring a consistent experience across devices while tracking lesson completion and quiz results.
+- **Redux Toolkit**: Efficiently tracks lesson progress, user preferences, and coding scores.
 - **Supabase**:
-  - **Authentication**: Secure and easy-to-use login and registration, allowing users to track their progress and customize their learning journey.
-  - **Realtime Database**: Updates user progress and quiz results in real-time, ensuring a dynamic and responsive learning environment.
-  - **File Storage**: Stores video lessons, practice exercises, and other learning materials for fast and easy access anytime, anywhere.
+  - **Authentication**:  Easy login and account management for learners.
+  - **Realtime Database**: Syncs your code progress, quiz results, and achievements in real time.
+  - **File Storage**: Stores lesson files, project templates, and user submissions securely and efficiently.

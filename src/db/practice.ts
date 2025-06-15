@@ -132,42 +132,39 @@ export type Exercise = {
 
 export const excercises: Exercise[] = [
   {
-    title: "Từ vựng trong tiếng anh",
-    description:
-      "Bộ bài tập từ vựng tiếng Anh này được thiết kế dành cho người học ở trình độ sơ cấp (A1–A2), giúp bạn làm quen và ghi nhớ các từ vựng thường dùng trong cuộc sống hàng ngày. Thông qua nhiều dạng bài tập phong phú, bạn sẽ rèn luyện khả năng nhận biết từ, hiểu nghĩa, và sử dụng từ vựng đúng ngữ cảnh.",
-    image: require("../assets/practice1.jpg"),
+    title: "Practice 1: Deploy a Static Website with GitHub Pages",
+    description: "Goal: Deploy a simple HTML/CSS website to GitHub Pages.",
+    image: "",
     content: [
-      "Nội dung gồm có:",
-      "\t- Level 1: Chọn nghĩa đúng của từ (Multiple choice)",
-      "\t- Level 2: Điền từ vào chỗ trống (Fill in the blanks)",
-      "\t- Level 3: Nối từ với hình ảnh hoặc định nghĩa (Matching)",
-      "\t- Level 4: Nhóm từ theo chủ đề (Categorizing)",
+      "1. Create a basic website (e.g., index.html, style.css).",
+      "2. Push the project to a public GitHub repository.",
+      "3. Go to Settings > Pages, select the main branch and the / (root) folder.",
+      "4. Save and access your live site at: https://your-username.github.io/project-name/",
     ],
   },
   {
-    title: "Bài tập ngữ pháp",
-    description:
-      "Bộ bài tập ngữ pháp này được thiết kế dành cho người học ở trình độ sơ cấp (A1–A2), nhằm giúp củng cố và thực hành các điểm ngữ pháp nền tảng của tiếng Anh. Các bài tập được trình bày theo nhiều dạng khác nhau, giúp người học phát triển tư duy ngữ pháp một cách toàn diện và linh hoạt.",
-    image: require("../assets/practice2.jpg"),
+    title: "Practice 2: Deploy a React App with Netlify",
+    description: "Goal: Deploy a React application using Netlify.",
+    image: "",
     content: [
-        "Nội dung gồm có:",
-      "\t- Level 1: Sửa lỗi sai (Error correction)",
-      "\t- Level 2: Viết lại câu (Sentence transformation)",
-      "\t- Level 3: Điền từ đúng vào chỗ trống (Gap-fill)",
-      "\t- Level 4: Sắp xếp từ thành câu đúng (Sentence reordering)",
+      "1. Create a React project using create-react-app.",
+      "2. Run npm run build to generate the build folder.",
+      "3. Push the project to GitHub.",
+      "4. Go to Netlify.com, sign in, and connect your GitHub repo.",
+      "5. Select the repo, set the build command (npm run build) and publish folder (build).",
+      "6. Deploy and share the live URL Netlify provides.",
     ],
   },
   {
-    title: "Bài tổng hợp",
-    description:
-      "Bộ bài tập tổng hợp này được thiết kế để giúp người học ở trình độ sơ cấp (A1–A2) rèn luyện và phát triển đồng thời hai kỹ năng nền tảng quan trọng trong tiếng Anh: từ vựng và ngữ pháp.",
-    image: require("../assets/practice3.png"),
+    title: "Practice 3: Use a Custom Domain with Vercel",
+    description: "Goal: Deploy a project and attach a custom domain.",
+    image: "",
     content: [
-       "Nội dung gồm có:",
-      "\t- Level 1: Điền từ đúng vào chỗ trống (Vocabulary + Grammar gap-fill)",
-      "\t- Level 2: Chọn đáp án đúng (Multiple choice)",
-      "\t- Level 3: Nối câu/ý đúng (Matching)",
-      "\t- Level 4: Viết lại câu (Sentence Transformation)",
+      "1. Push any frontend project to GitHub.",
+      "2. Log in to Vercel.com and import the GitHub repo.",
+      "3. Deploy the project.",
+      "4. Go to Settings > Domains in Vercel and add your custom domain (from Namecheap, GoDaddy, etc.).",
+      "5. Follow DNS instructions to point the domain to Vercel.",
     ],
   },
 ];
