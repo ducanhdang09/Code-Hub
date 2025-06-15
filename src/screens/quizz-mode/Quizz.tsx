@@ -17,9 +17,9 @@ interface LevelInfo {
 }
 
 const levels: LevelInfo[] = [
-  { text: "Dễ", level: "easy" },
-  { text: "Trung Bình", level: "medium" },
-  { text: "Khó", level: "hard" },
+  { text: "Easy", level: "easy" },
+  { text: "Medium", level: "medium" },
+  { text: "Hard", level: "hard" },
 ];
 
 const LEVEL_GRADIENTS: Record<string, [string, string]> = {
@@ -57,7 +57,7 @@ export default function Quizz() {
           {/* 2. Title */}
           <Box px="$4" mb="$4">
             <Text fontSize="$2xl" fontWeight="$bold" textAlign="center">
-              Chọn cấp độ Quiz
+              Choose Quiz levels
             </Text>
           </Box>
 
@@ -122,7 +122,7 @@ export default function Quizz() {
           <Box flex={1} />
           <Box mb="$6">
             <Text color="$coolGray500" textAlign="center" fontSize="$sm">
-              Bạn có thể thay đổi cấp độ bất kỳ lúc nào
+              You can change level at anytime
             </Text>
           </Box>
         </VStack>

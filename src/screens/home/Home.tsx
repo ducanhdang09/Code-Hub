@@ -60,6 +60,7 @@ export default function Home() {
           from={{ opacity: 0, translateX: -50 }}
           animate={{ opacity: 1, translateX: 0 }}
           transition={{ delay: 300, type: "spring", stiffness: 120 }}
+      
         >
           <PopularList />
         </MotiView>

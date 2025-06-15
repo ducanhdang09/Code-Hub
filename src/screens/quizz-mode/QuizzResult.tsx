@@ -97,7 +97,7 @@ export default function QuizzResult() {
             rounded="$full"
             bg="rgba(255,255,255,0.3)"
             justifyContent="center"
-            alignItems="center"
+alignItems="center"
           >
             <LottieView
               source={cfg.animation}
@@ -210,7 +210,7 @@ export default function QuizzResult() {
 
 const styles = StyleSheet.create({
   container: { flex: 1 },
-  badgeContainer: {
+badgeContainer: {
     shadowColor: "#000",
     shadowOpacity: 0.3,
     shadowRadius: 10,

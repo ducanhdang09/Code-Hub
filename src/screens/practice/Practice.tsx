@@ -112,7 +112,7 @@ export default function Practice() {
           style={styles.headerLottie}
         />
         <Text fontSize="$2xl" fontWeight="$bold" color="$primary600" mt="$2">
-          Thử Làm Thực Hành!
+          Try It Out!
         </Text>
       </Box>
 

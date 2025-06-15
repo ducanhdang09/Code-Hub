@@ -167,12 +167,12 @@ export default function PracticeDetail() {
             color={step === 0 ? "#ccc" : "#fff"}
           />
           <Text ml="$2" color={step === 0 ? "$coolGray300" : "#fff"}>
-            Quay lại
+            Back
           </Text>
         </Button>
         {step < total - 1 ? (
           <Button size="md" onPress={goNext} variant="solid" bg="$primary600">
-            <Text color="$white">Tiếp theo</Text>
+            <Text color="$white">Next</Text>
             <Ionicons
               name="arrow-forward"
               size={20}
@@ -187,7 +187,7 @@ export default function PracticeDetail() {
             variant="solid"
             bg="$success600"
           >
-            <Text color="$white">Hoàn thành</Text>
+            <Text color="$white">Finish</Text>
             <Ionicons
               name="checkmark"
               size={20}
