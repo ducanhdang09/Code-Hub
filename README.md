@@ -4,7 +4,9 @@
 
 **Code Studio** is a powerful and interactive learning app designed to help you master coding from beginner to advanced levels. With daily lessons, hands-on projects, and smart tracking, you’ll build your skills in HTML, CSS, JavaScript, and more — one line at a time!
 
-[DEMO](https://drive.google.com/file/d/1MKTk-J7RyQNJV7kIePxYQ24sHfbMEvJN/view?usp=sharing)
+🔗 [DEMO](https://drive.google.com/file/d/1MKTk-J7RyQNJV7kIePxYQ24sHfbMEvJN/view?usp=sharing)
+📥 [Tải File APK (Android)](https://drive.google.com/file/d/12uFUtgmeAvmW_s_ja3TekSthcMYk6Nw9/view?usp=sharing)
+
 
 ## Key Features
 
